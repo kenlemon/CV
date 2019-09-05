@@ -11,9 +11,6 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/scrolleffect.js"></script>
-
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -21,6 +18,15 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+	<!-- for scroll effect -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
 
 </head>
 
@@ -111,16 +117,16 @@
 
 	<section id="experience">
 		
-		<div class="container">
+		<div class="container sticky-effect">
 
 			<div class="white-divider"></div>
 			<div class="heading">
 			    <h2>Expérience Professionnelle</h2>
 		    </div>
 
-		    <ul class="timeline">
+		    <ul class="timeline sticky-effect-2">
 		    	<li>
-		    		<div class="timeline-badge"><span class="fa fa-briefcase"></span></div>
+		    		<div class="timeline-badge first-badge"><span class="fa fa-briefcase"></span></div>
 
 		    		<div class="timeline-panel-container">
 		    			<div class="timeline-panel">
@@ -361,6 +367,9 @@
 		</a>
 		<h5>by KEN</h5>
 	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/scrolleffect.js"></script>
 
 </body>
 </html>
